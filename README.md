@@ -1,21 +1,22 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║    ██████╗ ██╗████████╗██╗██╗  ██╗ █████╗            ║
-║    ██╔══██╗██║╚══██╔══╝██║██║ ██╔╝██╔══██╗           ║
-║    ██████╔╝██║   ██║   ██║█████╔╝ ███████║           ║
-║    ██╔══██╗██║   ██║   ██║██╔═██╗ ██╔══██║           ║
-║    ██║  ██║██║   ██║   ██║██║  ██╗██║  ██║           ║
-║    ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝           ║
-║                                                      ║
-║              S A N C H E T I                         ║
-╚══════════════════════════════════════════════════════╝
+╔═════════════════════════════════════════════════╗
+║                                                 ║
+║    ██████╗ ██╗████████╗██╗██╗  ██╗ █████╗       ║
+║    ██╔══██╗██║╚══██╔══╝██║██║ ██╔╝██╔══██╗      ║
+║    ██████╔╝██║   ██║   ██║█████╔╝ ███████║      ║
+║    ██╔══██╗██║   ██║   ██║██╔═██╗ ██╔══██║      ║
+║    ██║  ██║██║   ██║   ██║██║  ██╗██║  ██║      ║
+║    ╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝      ║
+║                                                 ║
+║              S A N C H E T I                    ║
+╚═════════════════════════════════════════════════╝
 ```
 
 ### Backend Engineer · Co-op Student · Systems Thinker
 #### Sheridan College · Co-Founder @ VibeNewZ · Open to Opportunities
+ 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritikasancheti30/)
 ![Status](https://img.shields.io/badge/Status-Open_to_Opportunities-blue?style=for-the-badge)
@@ -112,8 +113,53 @@ NLP Model   DB Layer
 
 ## `{ projects }`
 
-> 🚧 More projects coming soon — currently in active development!
-> Feel free to explore my repositories in the meantime.
+<table>
+<tr>
+<td width="55%">
+
+### 🎙️ Podcast Tracker
+**Solo Project · Spring Boot · Thymeleaf · H2**
+
+A full-stack podcast playlist manager built for the organised listener. Track your favourite and future-favourite podcasts, the streaming services they live on, and sort them your way — no algorithm in sight.
+
+- 📋 Add, edit & delete podcasts with title, year, star rating & direct links
+- 🎛️ Multi-service support — one podcast, many streamers, all tracked
+- 🔃 Sort by Year, Rating, or Rating & Title via clickable table headers
+- 💾 H2 in-memory database with bootstrapped seed data
+- 🖥️ Single-page Thymeleaf UI — clean, fast, no clutter
+
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RitikaSancheti/podcast-tracker)
+
+</td>
+<td width="45%">
+
+```
+Tech Stack
+───────────────────────
+  Thymeleaf (UI)
+        │
+        ▼
+  Spring Boot MVC
+  (Controllers)
+        │
+   ┌────┴────┐
+   │         │
+   ▼         ▼
+JPA Repos  H2 Database
+(Podcast) (StreamingService)
+   │         │
+   └────┬────┘
+        │
+        ▼
+  Sorted / Filtered
+    View ✓
+```
+
+</td>
+</tr>
+</table>
+
+![Podcast Tracker Screenshot](https://raw.githubusercontent.com/RitikaSancheti/podcast-tracker/main/screenshot.png)
 
 ---
 
