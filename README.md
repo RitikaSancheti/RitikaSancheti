@@ -158,8 +158,6 @@ JPA Repos  H2 Database
 </tr>
 </table>
 
-![Podcast Tracker Screenshot](https://raw.githubusercontent.com/RitikaSancheti/podcast-tracker/main/screenshot.png)
-
 ---
 
 ## `{ github_stats }`
