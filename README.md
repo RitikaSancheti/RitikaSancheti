@@ -14,12 +14,12 @@
 ╚══════════════════════════════════════════════════════╝
 ```
 
-### Backend Engineer · Co-op Student · Systems Thinker
+### Backend Engineer · Systems Thinker
 #### Sheridan College · Co-Founder @ VibeNewZ · Open to Opportunities
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritikasancheti30/)
 ![Status](https://img.shields.io/badge/Status-Open_to_Opportunities-blue?style=for-the-badge)
-![School](https://img.shields.io/badge/Sheridan_College-Co--op_Student-8B5CF6?style=for-the-badge)
+![School](https://img.shields.io/badge/Sheridan_College-8B5CF6?style=for-the-badge)
 
 </div>
 
@@ -74,9 +74,9 @@
 
 A mental health-focused news platform that puts emotional control back in the user's hands. Powered by a fine-tuned **RoBERTa NLP classifier** and a robust **Spring Boot** backend, VibeNewZ replaces algorithmic noise with intentional, sentiment-aware content delivery.
 
-- ⚙️ Backend architecture & REST API design
-- 🔗 Service integration between NLP model and iOS client
-- 📦 API-first development with Spring Boot
+- Backend architecture & REST API design
+- Service integration between NLP model and iOS client
+- API-first development with Spring Boot
 
 [![View on HuggingFace](https://img.shields.io/badge/Live_NLP_Model-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/GoldenRailgun/new-sentiment-ap)
 
@@ -121,11 +121,11 @@ NLP Model   DB Layer
 
 A full-stack podcast playlist manager built for the organised listener. Track your favourite and future-favourite podcasts, the streaming services they live on, and sort them your way — no algorithm in sight.
 
-- 📋 Add, edit & delete podcasts with title, year, star rating & direct links
-- 🎛️ Multi-service support — one podcast, many streamers, all tracked
-- 🔃 Sort by Year, Rating, or Rating & Title via clickable table headers
-- 💾 H2 in-memory database with bootstrapped seed data
-- 🖥️ Single-page Thymeleaf UI — clean, fast, no clutter
+- Add, edit & delete podcasts with title, year, star rating & direct links
+- Multi-service support — one podcast, many streamers, all tracked
+- Sort by Year, Rating, or Rating & Title via clickable table headers
+- H2 in-memory database with bootstrapped seed data
+- Single-page Thymeleaf UI — clean, fast, no clutter
 
 [![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RitikaSancheti/podcast-tracker)
 
@@ -160,16 +160,54 @@ JPA Repos  H2 Database
 
 ---
 
-## `{ github_stats }`
+<table>
+  <tr>
+    <td width="55%">
+      
+### 📰 Corporate Bulletin Board
+**Solo Project · Angular · Spring Boot · H2**
 
-<div align="center">
+An internal news feed for corporate communication — combining an Angular front end with a Spring Boot RESTful back end. Built to keep teams in sync on the latest technical developments, with strict separation of concerns end to end.
 
-![Ritika's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RitikaSancheti&show_icons=true&theme=radical&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RitikaSancheti&layout=compact&theme=radical&hide_border=true)
+- Add, edit & delete posts — author, paragraph & server-generated timestamp
+- Timestamps set programmatically in a Java service layer, never client-side
+- Newest-first feed via custom JPA repository queries
+- Angular ↔ REST API ↔ H2 — Angular never touches the database directly
+- Angular webpacked into Spring Boot's static resources for single-port deployment
 
-</div>
+[![View Repo](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RitikaSancheti/Corporate_Bulletin_Board)
+
+</td>
+<td width="45%">
+
+```
+Layered Architecture
+───────────────────────
+   Angular (Frontend)
+        │
+        ▼
+  RestController
+   (HTTP only)
+        │
+        ▼
+   Service Layer
+ (timestamps, logic)
+        │
+        ▼
+  JPA Repository
+  (OrderBy queries)
+        │
+        ▼
+  H2 Database ✓
+```
+
+</td>
+</tr>
+</table>
+
 
 ---
+
 
 ## `{ lets_connect }`
 
